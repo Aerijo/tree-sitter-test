@@ -1,0 +1,24 @@
+{
+  "name": "tree-sitter-test",
+  "version": "0.0.0",
+  "description": "Grammar for tree-sitter corpus test files",
+  "main": "index.js",
+  "repository": "https://github.com/Aerijo/tree-sitter-test",
+  "bugs": "https://github.com/Aerijo/tree-sitter-test/issues",
+  "keywords": [
+  ],
+  "author": "Benjamin Gray",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.4.0"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.6.0",
+    "tree-sitter": "^0.12.8",
+    "tree-sitter-cli": "^0.12.5"
+  },
+  "scripts": {
+    "build": "tree-sitter generate && node-gyp build",
+    "test": "tree-sitter test && tree-sitter parse examples --quiet --time"
+  }
+}

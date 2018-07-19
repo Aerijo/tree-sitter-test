@@ -1,0 +1,31 @@
+========================================
+This is weird
+========================================
+
+==
+this
+==
+
+
+
+--
+(program)
+
+----------------------------------------
+
+(program
+  (test
+    (header
+      (eq_divider)
+      (heading_name)
+      (eq_divider)
+    )
+    (body)
+    (dash_divider)
+    (s_expresion
+      (group
+        (identifier)
+      )
+    )
+  )
+)
