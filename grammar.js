@@ -11,7 +11,7 @@ module.exports = grammar({
       optional($.body),
       $.dash_divider,
       repeat($._newline),
-      $.s_expresion
+      $.s_expression
     ),
 
     header: $ => seq(
@@ -36,7 +36,7 @@ module.exports = grammar({
 
     heading_name: $ => /[^\r\n=]+/,
 
-    s_expresion: $ => $._term,
+    s_expression: $ => $._term,
 
     _term: $ => choice(
       $.group,
