@@ -1,12 +1,11 @@
 {
   "name": "tree-sitter-test",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Grammar for tree-sitter corpus test files",
   "main": "index.js",
   "repository": "https://github.com/Aerijo/tree-sitter-test",
   "bugs": "https://github.com/Aerijo/tree-sitter-test/issues",
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Benjamin Gray",
   "license": "MIT",
   "dependencies": {
