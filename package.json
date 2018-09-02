@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-test",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Grammar for tree-sitter corpus test files",
   "main": "index.js",
   "repository": "https://github.com/Aerijo/tree-sitter-test",
