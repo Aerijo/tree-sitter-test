@@ -65,8 +65,16 @@
           "name": "_newline"
         },
         {
-          "type": "SYMBOL",
-          "name": "heading_name"
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "heading_name"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
         },
         {
           "type": "SYMBOL",

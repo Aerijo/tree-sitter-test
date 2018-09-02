@@ -17,7 +17,7 @@ module.exports = grammar({
     header: $ => seq(
       $.eq_divider,
       $._newline,
-      $.heading_name,
+      optional($.heading_name),
       $._newline,
       $.eq_divider,
       $._newline
